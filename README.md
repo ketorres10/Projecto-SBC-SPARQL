@@ -1,4 +1,4 @@
-# Projecto-SBC-SPARQL
+# Proyecto-SBC-SPARQL
 El projecto se basa en crear una página web para presentar información de los grupos étnicos del Ecuador,esta información se la obtiene del json que genera DBpedia al realizar una consulta SparQL, se utilizo javascript como lenguaje de programación y HTML que es un lenguaje de marcado para la elaboración de la página web. 
 La página presenta 3 partes: 
 * Información general del Ecuador: Se presenta la descripción, capital (enlace DBpedia), población, etc. 
