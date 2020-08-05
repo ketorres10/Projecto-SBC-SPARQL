@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" href="estilos.scss">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+		crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+
+<body>
+
+	<div class="main">
+		<div id="principal">
+			<br>
+			<h1 style="text-align: center;">ECUADOR</h1>
+			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img class="d-block" src="img/img1.jpg" alt="First slide">
+					</div>
+					<div class="carousel-item">
+						<img class="d-block" src="img/imd2.jpg" alt="Second slide">
+					</div>
+					<div class="carousel-item">
+						<img class="d-block" src="img/img3.jpg" alt="Third slide">
+					</div>
+				</div>
+				<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+			<hr>
+		</div>
+
+
+		<hr>
+	</div>
+	<div class="container">
+		<div>
+			<button class="btn btn-secondary" id="btn-informacion" value="Clear" color="danger"
+				type="submit">Información</button>
+			<button class="btn btn-secondary" id="btn-consulta" value="Clear" type="submit">Grupos étnicos</button>
+			<button class="btn btn-secondary" id="btn-juego" value="Clear" type="submit">Juego</button>
+
+		</div>
+		<div id="section">
+			<br>
+			<table class="table table-hover" id="resultado">
+				<tbody>
+				</tbody>
+			</table>
+			<table class="table table-hover" id="resultado2">
+				<tbody></tbody>
+			</table>
+			<div class="table table-hover" id="resultadop">
+				<tbody></tbody>
+			</div>
+
+		</div>
+		<div id="informacion" style="display: none;">
+			<div class="card">
+
+				<div class="card-body">
+					<p id="abstract" class="card-text"></p>
+					<p id="descripcion" class="card-text"></p>
+
+					<p id="capital" class="card-text">
+
+					</p>
+					<p id="nacionalidad" class="card-text"></p>
+				</div>
+
+			</div>
+		</div>
+		<div id="preguntas" style="display: none;">
+			<div class="card">
+
+				<div class="card-body">
+					<div id="ventana">
+
+					</div>
+					<div id="ventana2">
+
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+
+
+	</div>
+	<!-- Footer -->
+<footer class="page-footer font-small indigo" style="margin-top: 2%; background-color: #1C2833;" >
+
+	<!-- Footer Links -->
+	<div class="container" style="color: aliceblue;">
+  
+	  <!-- Grid row-->
+	  <div class="row text-center d-flex justify-content-center pt-5 mb-3">
+  
+		<!-- Grid column -->
+		<div class="col-md-4 mb-4">
+		  <h6 class="font-weight-bold">
+			 
+			<img class="d-block" src="img/estudiante.jpg" alt="First slide" style="height: 10em; width: 12em; margin-left: 3em; border-radius: 45%;" >
+			<hr>
+			<a href="#!">Karen Isabel Torres</a>
+			<p><i>Sistemas Informáticos y Computación</i></p>
+			<p>Universidad Técnica Particular de Loja</p>
+			<p><a href="#!">kareeli998@gmail.com</a></p>
+		  </h6>
+		</div>
+		<!-- Grid column -->
+  
+		<!-- Grid column -->
+		<div class="col-md-4 mb-4" >
+		  <h6 class="font-weight-bold">
+		
+			<img class="d-block" src="img/docente.jpg" alt="First slide" style="margin-left: 3em;height: 10em; width: 12em; border-radius: 45%;">
+			<hr>
+			<a href="#!">Ing.Nelson Piedra, PhD</a>
+			<p><i>Departamento de Ciencias de la Computación</i></p>
+			<p>Universidad Técnica Particular de Loja</p>
+			<p><a href="#!">nopiedra@utpl.edu.ec</a></p>
+		  </h6>
+		</div>
+		<!-- Grid column -->
+  
+	  </div>
+	  <!-- Grid row-->
+  
+	  <div>
+		<div class="container" >
+
+			<!-- Social buttons -->
+			<ul class="list-unstyled list-inline text-center">
+			  <li class="list-inline-item">
+				<a class="btn-floating btn-fb mx-3">
+				  <i class="fab fa-facebook-f"> </i>
+				</a>
+			  </li>
+			  <li class="list-inline-item">
+				<a class="btn-floating btn-tw mx-3">
+				  <i class="fab fa-twitter"> </i>
+				</a>
+			  </li>
+			  <li class="list-inline-item">
+				<a class="btn-floating btn-gplus mx-3">
+				  <i class="fab fa-google-plus-g"> </i>
+				</a>
+			  </li>
+			  <li class="list-inline-item">
+				<a class="btn-floating btn-li mx-3">
+				  <i class="fab fa-linkedin-in"> </i>
+				</a>
+			  </li>
+			  <li class="list-inline-item">
+				<a class="btn-floating btn-dribbble mx-3">
+				  <i class="fab fa-dribbble"> </i>
+				</a>
+			  </li>
+			</ul>
+			<!-- Social buttons -->
+		
+		  </div>
+	  </div>
+	<!-- Footer Links -->
+  
+	<!-- Copyright -->
+	<div class="footer-copyright text-center py-3">© 2020 Copyright:
+	  <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+	</div>
+	<!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+	<script src="ajax.js"></script>
+	<script src="ajax2.js"></script>
+	<script src="ajaxJuego.js"></script>
+
+</body>
+
+</html>

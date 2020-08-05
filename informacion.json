@@ -1,0 +1,71 @@
+{
+    "head": {
+        "link": [],
+        "vars": [
+            "abstract"
+        ]
+    },
+    "results": {
+        "distinct": false,
+        "ordered": true,
+        "bindings": [
+            {
+                "abstract": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double",
+                    "value": "2.8356e+11"
+                }
+            },
+            {
+                "abstract": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#double",
+                    "value": "2.83562e+11"
+                }
+            }
+        ]
+    },
+    "results2": {
+        "distinct": false,
+        "ordered": true,
+        "bindings": [
+            {
+                "capital": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Quito"
+                },
+                "nombre": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "Quito"
+                }
+            }
+        ]
+    },
+    "results3": {
+        "distinct": false,
+        "ordered": true,
+        "bindings": [
+            {
+                "nacionalidad": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Ecuadorian"
+                }
+            }
+        ]
+    },
+    "results4": {
+        "distinct": false,
+        "ordered": true,
+        "bindings": [
+            {
+                "descripcion": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "Ecuador, oficialmente denominado Rep\u00FAblica del Ecuador, es un pa\u00EDs latinoamericano ubicado en la parte noroccidental de Sudam\u00E9rica. Limita al norte con Colombia y al sur y al este con Per\u00FA. El oc\u00E9ano Pac\u00EDfico ba\u00F1a la costa occidental y lo separa de las Islas Gal\u00E1pagos, ubicadas mil kil\u00F3metros al oeste. Una secci\u00F3n volc\u00E1nica de la cordillera de los Andes surca el territorio de norte a sur, dejando a su flanco occidental el golfo de Guayaquil y una llanura boscosa, y al oriente, la Amazon\u00EDa. Ecuador ocupa un \u00E1rea de 283.561 km\u00B2, por lo que se trata del cuarto pa\u00EDs m\u00E1s peque\u00F1o del subcontinente. Es el octavo pa\u00EDs m\u00E1s poblado de Latinoam\u00E9rica, con algo m\u00E1s de 16 millones de habitantes, y el m\u00E1s densamente poblado de Am\u00E9rica del Sur y el quinto en el continente. Es el estado con la m\u00E1s alta con"
+                }
+            }
+        ]
+    }
+}

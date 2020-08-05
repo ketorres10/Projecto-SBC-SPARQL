@@ -1,0 +1,114 @@
+{
+    "head": {
+        "link": [],
+        "vars": [
+            "grupoEtnico",
+            "nombre",
+            "nombre2",
+            "poblacion",
+            "imagen"
+        ]
+    },
+    "results": {
+        "distinct": false,
+        "ordered": true,
+        "bindings": [
+            {
+                "grupoEtnico": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Indigenous_peoples_in_Ecuador"
+                },
+                "nombre": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "Ind\u00EDgenas en Ecuador"
+                },
+                "nombre2": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Indigenous peoples in Ecuador"
+                },
+                "poblacion": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+                    "value": "3400000"
+                },
+                "imagen": { 
+                    "type": "uri", 
+                    "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Historic_Center_of_Quito_-_World_Heritage_Site_by_UNESCO_-_Photo_437.jpg" 
+                }
+            },
+            {
+                "grupoEtnico": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Mestizo"
+                },
+                "nombre": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "Mestizo"
+                },
+                "nombre2": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Mestizos"
+                },
+                "imagen": { 
+                    "type": "uri", 
+                    "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Mestiso_1770.jpg" 
+                }
+            },
+            {
+                "grupoEtnico": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Montubio"
+                },
+                "nombre": {
+                    "type": "literal",
+                    "xml:lang": "es",
+                    "value": "Montubio"
+                },
+                "imagen": { 
+                    "type": "uri", 
+                    "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Montubio_objects.JPG" 
+                }
+            },
+            {
+                "grupoEtnico": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Afroecuatoriano"
+                },
+                "nombre": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Afroecuatoriano"
+                },
+                "imagen": { 
+                    "type": "uri", 
+                    "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Stamps_of_Ecuador,_2012-44.jpg" 
+                }
+            },
+            {
+                "grupoEtnico": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/White_Latin_American"
+                },
+                "nombre": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "White Latin American"
+                },
+                "poblacion": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+                    "value": "178600000"
+                },
+                "imagen": { 
+                    "type": "uri", 
+                    "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Map-Latin_America.png" 
+                }
+            }
+        ]
+        
+    }
+}
